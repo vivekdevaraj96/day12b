@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    .nav{
+        display:grid;
+        height:100px;
+        background-color: rgb(97, 96, 96);
+        grid-template-columns: 20% 60% 20%;
+        align-items:center;
+        
+        
+        
+    }
+
+    .nav img{
+        width:80px;
+        position:relative;
+        top:10px;
+        left:10px
+    }
+
+    .title p{
+        display:flex;
+        justify-content:center;
+    }
+
+
+    .content{
+        display: flex;
+    }
+    
+
+    #con1{
+        
+        position:relative;
+        margin: 20px;
+        border-radius: 20px;
+        
+        height:400px;
+        width:200px;
+        background-color: rgb(97, 96, 96);
+        }
+
+    #con2{
+        display: flex;
+        /* background-color: brown; */
+        flex-direction:column;
+        justify-content: space-evenly;
+    }
+
+    .search{
+        height:100px;
+        width:500px;
+        margin:20px;
+        background-color: rgb(97, 96, 96);
+        display:flex;
+        align-items: center;
+        border-radius: 20px;
+        
+    }
+    .rside1{
+        display:flex;
+        justify-content: space-around;
+        
+    }
+
+    .rside1 div{
+        height:100px;
+        width:150px;
+        background-color: rgb(97, 96, 96);
+        display:flex;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+
+    .rside3{
+        height:100px;
+        width:600px;
+        margin:20px;
+        background-color: rgb(97, 96, 96);
+        border-radius: 20px;
+    }
+    
+    body{
+        background-color: rgb(171, 172, 172);
+    }
+    </style>
+  
+
+    
+</head>
+<body>
+    
+    <div class="nav">
+        <div><img src="pngwing.com.png"></div>
+
+        <div class="title"><p>GITHUB</p></div>
+        <div>
+
+        </div>
+
+
+    </div>
+
+    <div class="content">
+
+        <div id="con1"></div>
+        <div id="con2">
+            <div class="rside search"><p>Search</p></div>
+            <div class="rside1">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+            <div class="rside3"></div>
+
+
+        </div>
+
+    </div>
+    
+
+
+</body>
+</html>
